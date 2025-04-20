@@ -10,7 +10,7 @@
             <label for="concessions" class="form-label">Select Concessions</label>
             <select multiple class="form-select" id="concessions" name="concessions[]" required size="5">
                 @foreach($concessions as $concession)
-                    <option value="{{ $concession->id }}">{{ $concession->name }} - ${{ number_format($concession->price, 2) }}</option>
+                    <option value="{{ $concession->id }}">{{ $concession->name }} - LKR {{ number_format($concession->price, 2) }}</option>
                 @endforeach
             </select>
             <small class="text-muted">Hold Ctrl/Cmd to select multiple</small>

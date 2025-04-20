@@ -11,7 +11,7 @@
             <thead>
                 <tr>
                     <th>ID</th>
-                    <th>Send to Kitchen Time</th>
+                    <th>Send to Kitchen Time/(Date)</th>
                     <th>Status</th>
                     <th>Total Price</th>
                     <th>Actions</th>

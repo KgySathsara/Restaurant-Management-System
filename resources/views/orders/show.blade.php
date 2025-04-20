@@ -20,7 +20,7 @@
             </div>
 
             <div class="mb-3">
-                <strong>Total Price:</strong> ${{ number_format($order->total_price, 2) }}
+                <strong>Total Price:</strong> LKR {{ number_format($order->total_price, 2) }}
             </div>
 
             <h4 class="mt-4">Concessions</h4>
@@ -30,7 +30,7 @@
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
                                 <h5>{{ $concession->name }}</h5>
-                                <p class="mb-0">${{ number_format($concession->price, 2) }}</p>
+                                <p class="mb-0">LKR {{ number_format($concession->price, 2) }}</p>
                             </div>
                             <img src="{{ asset('storage/' . $concession->image) }}" alt="{{ $concession->name }}" width="50">
                         </div>
