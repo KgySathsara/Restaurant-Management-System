@@ -37,3 +37,4 @@ A PHP-based web application for managing concessions, orders, and kitchen operat
 ### 3. .env file DB name set
 ### 4. php artisan migrate   and   php artisan db:seed   run this commands
 ### 5. php artisan storage:link   command run
+### 6.  http://127.0.0.1:8000/concessions    - this code add your Url     
